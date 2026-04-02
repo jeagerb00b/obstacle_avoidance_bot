@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="obstacle_world">
+
+    <!-- ============================================================
+         PHYSICS
+    ============================================================ -->
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+    </physics>
+
+    <!-- ============================================================
+         LIGHTING
+    ============================================================ -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- ============================================================
+         GROUND PLANE
+    ============================================================ -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- ============================================================
+         OBSTACLES  (1×1×1 m boxes at various positions)
+         The robot spawns at (0,0) heading +X, so obstacles are
+         scattered ahead along +X with lateral variation.
+    ============================================================ -->
+
+    <!-- Obstacle 1: straight ahead, slightly left -->
+    <model name="obstacle_1">
+      <static>true</static>
+      <pose>3.0 0.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.8 0.2 0.2 1</ambient>
+            <diffuse>0.8 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 2: further ahead, right of centre -->
+    <model name="obstacle_2">
+      <static>true</static>
+      <pose>5.0 -0.8 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.2 0.8 0.2 1</ambient>
+            <diffuse>0.2 0.8 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 3: blocking the centre channel -->
+    <model name="obstacle_3">
+      <static>true</static>
+      <pose>7.0 0.0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.2 0.2 0.8 1</ambient>
+            <diffuse>0.2 0.2 0.8 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 4: offset left, creating an S-curve -->
+    <model name="obstacle_4">
+      <static>true</static>
+      <pose>9.0 1.5 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.8 0.8 0.2 1</ambient>
+            <diffuse>0.8 0.8 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 5: far ahead, slightly right — final challenge -->
+    <model name="obstacle_5">
+      <static>true</static>
+      <pose>11.0 -1.0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.8 0.4 0.0 1</ambient>
+            <diffuse>0.8 0.4 0.0 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 6: wall-like barrier across path -->
+    <model name="obstacle_6">
+      <static>true</static>
+      <pose>4.0 -2.0 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.6 0.0 0.6 1</ambient>
+            <diffuse>0.6 0.0 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Obstacle 7: close and slightly off-centre to trigger early avoiding -->
+    <model name="obstacle_7">
+      <static>true</static>
+      <pose>2.0 -0.3 0.5 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>1 1 1</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>1 1 1</size></box></geometry>
+          <material>
+            <ambient>0.0 0.6 0.6 1</ambient>
+            <diffuse>0.0 0.6 0.6 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>

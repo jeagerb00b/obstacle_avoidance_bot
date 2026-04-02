@@ -1,0 +1,30 @@
+[0.526s] Invoking command in '/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance': PYTHONPATH=/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/build --no-deps symlink_data
+[0.730s] running develop
+[0.882s] running egg_info
+[0.882s] creating ugv_obstacle_avoidance.egg-info
+[0.882s] writing ugv_obstacle_avoidance.egg-info/PKG-INFO
+[0.882s] writing dependency_links to ugv_obstacle_avoidance.egg-info/dependency_links.txt
+[0.882s] writing entry points to ugv_obstacle_avoidance.egg-info/entry_points.txt
+[0.882s] writing requirements to ugv_obstacle_avoidance.egg-info/requires.txt
+[0.882s] writing top-level names to ugv_obstacle_avoidance.egg-info/top_level.txt
+[0.882s] writing manifest file 'ugv_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.884s] reading manifest file 'ugv_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.884s] writing manifest file 'ugv_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.885s] running build_ext
+[0.885s] Creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages/ugv-obstacle-avoidance.egg-link (link to .)
+[0.886s] Installing obstacle_avoidance_node script to /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/ugv_obstacle_avoidance
+[0.886s] 
+[0.886s] Installed /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance
+[0.886s] running symlink_data
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ament_index
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ament_index/resource_index
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ament_index/resource_index/packages
+[0.886s] symbolically linking /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/resource/ugv_obstacle_avoidance -> /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ament_index/resource_index/packages
+[0.886s] symbolically linking /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/package.xml -> /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/launch
+[0.886s] symbolically linking /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/launch/simulation.launch.py -> /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/launch
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/worlds
+[0.886s] symbolically linking /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/worlds/obstacle_world.world -> /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/worlds
+[0.886s] creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/urdf
+[0.886s] symbolically linking /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/urdf/ugv_robot.urdf -> /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/share/ugv_obstacle_avoidance/urdf
+[0.909s] Invoked command in '/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance' returned '0': PYTHONPATH=/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/build --no-deps symlink_data

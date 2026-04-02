@@ -1,0 +1,17 @@
+[0.504s] Invoking command in '/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance': PYTHONPATH=/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/build --no-deps symlink_data
+[0.716s] running develop
+[0.879s] running egg_info
+[0.879s] writing ugv_obstacle_avoidance.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ugv_obstacle_avoidance.egg-info/dependency_links.txt
+[0.880s] writing entry points to ugv_obstacle_avoidance.egg-info/entry_points.txt
+[0.880s] writing requirements to ugv_obstacle_avoidance.egg-info/requires.txt
+[0.880s] writing top-level names to ugv_obstacle_avoidance.egg-info/top_level.txt
+[0.881s] reading manifest file 'ugv_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'ugv_obstacle_avoidance.egg-info/SOURCES.txt'
+[0.883s] running build_ext
+[0.883s] Creating /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages/ugv-obstacle-avoidance.egg-link (link to .)
+[0.884s] Installing obstacle_avoidance_node script to /home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/ugv_obstacle_avoidance
+[0.884s] 
+[0.884s] Installed /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance
+[0.884s] running symlink_data
+[0.912s] Invoked command in '/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance' returned '0': PYTHONPATH=/home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/ros2_ws/install/ugv_obstacle_avoidance/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jeagerboob/ros2_ws/build/ugv_obstacle_avoidance/build --no-deps symlink_data
